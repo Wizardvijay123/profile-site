@@ -1,0 +1,65 @@
+html {
+  background-color:black;
+  color: white;
+}
+
+html .name {
+  color: white;
+  font-size: 70px;
+  text-align: center;
+}
+.cticons{
+  padding: 5px;
+  font-size: 30px;
+  display:inline-block;
+  margin-top: 15px;
+  padding: 10px;
+  text-align: end;
+}
+.cticons:hover{
+  color:white;
+  text-shadow: 0 0 15px white;
+  font-size: 40px;
+  transition: 0.1s;
+}
+.flex{
+  display: flex;
+}
+
+.Navbar{
+  margin: 0px;
+  background: gray;
+}
+.nav{
+  display: inline-block;
+  text-decoration: none;
+  margin: 10px;
+  font-size: 50px;
+  padding: 10px;
+  margin-bottom: 10px;
+
+}
+.nav:hover{
+  color: black;
+  border-radius: 5px;
+  box-sizing: border-box; 
+  transition: 0.5s; 
+}
+#usric{
+  margin-left:15px;
+}
+.arrow{
+  display: inline-block;
+  text-align: right;
+  width: 100%;
+  color: white;
+  font-size: 35px;
+}
+.arrow:hover{
+  text-shadow: 0 0 20px white;
+  color: black;
+  font-size:45px;
+  transition: 0.5s;  
+}
+
+
