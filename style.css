@@ -1,10 +1,15 @@
+:root{
+  --pc:black;
+  --sc:white;
+}
+
 html {
-  background-color:black;
-  color: white;
+  background-color:var(--pc);
+  color: var(--sc);
 }
 
 html .name {
-  color: white;
+  color: var(--sc);
   font-size: 70px;
   text-align: center;
 }
@@ -17,8 +22,8 @@ html .name {
   text-align: end;
 }
 .cticons:hover{
-  color:white;
-  text-shadow: 0 0 15px white;
+  color:var(--sc);
+  text-shadow: 0 0 15px var(--sc);
   font-size: 40px;
   transition: 0.1s;
 }
@@ -40,7 +45,7 @@ html .name {
 
 }
 .nav:hover{
-  color: black;
+  color: var(--pc);
   border-radius: 5px;
   box-sizing: border-box; 
   transition: 0.5s; 
@@ -52,14 +57,14 @@ html .name {
   display: inline-block;
   text-align: right;
   width: 100%;
-  color: white;
+  color: var(--sc);
   font-size: 35px;
 }
 .arrow:hover{
-  text-shadow: 0 0 20px white;
-  color: black;
+  text-shadow: 0 0 20px var(--sc);
   font-size:45px;
   transition: 0.5s;  
 }
 
 
+v
